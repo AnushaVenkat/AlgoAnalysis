@@ -1,0 +1,66 @@
+﻿<html>
+<body bgcolor="lightblue">
+<center>
+
+<FONT COLOR=BLUE>
+<H1>
+<marquee>WELCOME TO NAME SEARCH ALGORITHM</marquee>
+</H1>
+</FONT>
+
+
+<FONT COLOR=RED>
+<H1><P ALIGN=left>ALGORITHMS USED ARE</p> </H1>
+
+<br><br>
+
+<H2><FONT COLOR=BLACK>
+<P ALIGN=left>
+1.SOUND-EX ALGORITHM<BR>
+</p>
+<h3><FONT COLOR=Brown><P ALIGN=left>
+• Soundex recognises that vowels are some of the most variable aspects of surnames (for which it was originally used). This can also be extended to place names to see that Soundex may have similar abilities when dealing with a geographical corpus.<br>
+• Soundex recognises that certain consonants are similar sounding and groups them together. This means that if Soundex was used as an aid in searching, the user could still spell a surname, or place name for that matter, incorrectly, and as a result of Soundex, possibly still have the correctly spelt name/place suggested.<br>
+• Execution Time of sound-Ex algorithm is less.<br>
+<br>
+</p>
+
+<H2><FONT COLOR=BLACK>
+<P ALIGN=left>
+2.METAPHONE ALGORITHM<BR>
+</p>
+<h3><FONT COLOR=Brown><P ALIGN=left>
+• This algorithm is definitely better compared to SOUNDEX because it is more precise compared to the fixed 4 character code of SOUNDEX <br>
+• Minimizing false positives and false negatives is a task of very fine balancing act. Just phonetic keys are not enough to reduce false positives and false negatives. Another factor that needs to be considered is the multi-cultural aspect of names.<br>
+</p>
+
+<H2><FONT COLOR=BLACK>
+<P ALIGN=left>
+3.PHONEX ALGORITHM<BR>
+</p>
+<h3><FONT COLOR=Brown><P ALIGN=left>
+• Phonex Algorithmis a combination of the two methods,Soundex and Metaphone.<br>
+• The method was proved to give  a good overall performance when applied to names in the English language.<br>
+</p>
+
+<H2><FONT COLOR=BLACK>
+<P ALIGN=left>
+4.DAITCH-MOKOTOOF ALGORITHM<BR>
+</p>
+<h3><FONT COLOR=Brown><P ALIGN=left>
+• Coded names are six digits long, resulting in greater search precision (traditional Soundex uses four characters) <br>
+• Coded names can be stored as numeric values, which can save space in some applications (regular Soundex encodes values as alphanumeric text) <br>
+• Several rules in the algorithm encode multiple character n-grams as single digits (American and Russell Soundex do not handle multi-character n-grams) <br>
+• Multiple possible encodings can be returned for a single name (traditional Soundex returns only one encoding, even if the spelling of a name could potentially have multiple pronunciations)<br>
+
+</H2>
+</p>
+</FONT>	
+<hr>
+<BR><BR><BR><BR><BR>
+<form action="try.jsp" method=post><input type=submit value="Choose Your Algorithm" width="70"></form><br>
+<a href="http://localhost/code/metaphone_servlet">Search Using Default Search</a>
+<BR><BR><BR><BR><BR>
+<hr>
+</body>
+</html>
