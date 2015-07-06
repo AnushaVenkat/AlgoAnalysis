@@ -1,0 +1,39 @@
+<web-app>
+ <servlet>
+  <servlet-name>Algo1</servlet-name>
+  <servlet-class>soundex_servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>Algo1</servlet-name>
+ <url-pattern>/soundex_servlet</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+  <servlet-name>Algo2</servlet-name>
+  <servlet-class>metaphone_servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>Algo2</servlet-name>
+ <url-pattern>/metaphone_servlet</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+  <servlet-name>Algo3</servlet-name>
+  <servlet-class>phonex_servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>Algo3</servlet-name>
+ <url-pattern>/phonex_servlet</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+		<servlet-name>Algo4</servlet-name>
+		<servlet-class>daimot_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+				<servlet-name>Algo4</servlet-name>
+				<url-pattern>/daimot_servlet</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
